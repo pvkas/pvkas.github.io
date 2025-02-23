@@ -1,512 +1,861 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-<head>
-    <meta charset="utf-8">
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <title>Vikas Padaliya</title>
+        <meta
+            name="google-site-verification"
+            content="baOHmpaGvsqfueZzOCyQHRJVU0tcOq9hrvQE9EifEQY"
+        />
+        <meta
+            name="keyword"
+            content="portfolio, vikas padaliya, vikas, pvkas, pvkas13, vkas, devops, backend, rajkot, india"
+        />
+        <meta
+            name="description"
+            content="Hi, I'm Vikas Padaliya. I am working as DevOps & Backend Engineer. I've experience on building APIs, Microservices, Implementing Zero Down Time, Writing ETL, CI/CD, IaC, Conversational Bot, Serverless WebApps, Cloud Functions and Working with cloud platform like AWS, Azure, GCP along with various DevOps technologies"
+        />
 
-    <title>Vikas Padaliya</title>
-    <meta name="google-site-verification" content="baOHmpaGvsqfueZzOCyQHRJVU0tcOq9hrvQE9EifEQY" />
-    <meta name="keyword"
-        content="portfolio, vikas padaliya, vikas, pvkas, pvkas13, vkas, devops, backend, rajkot, india" />
-    <meta name="description"
-        content="Hi, I'm Vikas Padaliya. I am working as DevOps & Backend Engineer. I've experience on building APIs, Microservices, Implementing Zero Down Time, Writing ETL, CI/CD, IaC, Conversational Bot, Serverless WebApps, Cloud Functions and Working with cloud platform like AWS, Azure, GCP along with various DevOps technologies" />
+        <!-- Social Media  -->
+        <meta property="og:title" content="Vikas Padaliya" />
+        <meta
+            property="og:image"
+            content="https://www.pvkas.com/img/vkas-preview.jpg"
+        />
+        <meta
+            property="og:description"
+            content="Hi, I'm Vikas Padaliya. I am working as DevOps & Backend Engineer. I've experience on building APIs, Microservices, Implementing Zero Down Time, Writing ETL, CI/CD, IaC, Conversational Bot, Serverless WebApps, Cloud Functions and Working with cloud platform like AWS, Azure, GCP along with various DevOps technologies"
+        />
+        <meta property="og:url" content="https://www.pvkas.com" />
 
-    <!-- Social Media  -->
-    <meta property='og:title' content='Vikas Padaliya' />
-    <meta property='og:image' content='https://www.pvkas.com/img/vkas-preview.jpg' />
-    <meta property='og:description'
-        content="Hi, I'm Vikas Padaliya. I am working as DevOps & Backend Engineer. I've experience on building APIs, Microservices, Implementing Zero Down Time, Writing ETL, CI/CD, IaC, Conversational Bot, Serverless WebApps, Cloud Functions and Working with cloud platform like AWS, Azure, GCP along with various DevOps technologies" />
-    <meta property='og:url' content='https://www.pvkas.com' />
+        <!-- Favicons -->
+        <link href="./img/favicon.png" rel="icon" />
+        <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="./img/apple-touch-icon.png"
+        />
+        <link rel="icon" sizes="192x192" href="./img/icon-hd.png" />
+        <link rel="icon" sizes="128x128" href="./img/icon.png" />
 
-    <!-- Favicons -->
-    <link href="./img/favicon.png" rel="icon">
-    <link rel="apple-touch-icon" sizes="180x180" href="./img/apple-touch-icon.png">
-    <link rel="icon" sizes="192x192" href="./img/icon-hd.png">
-    <link rel="icon" sizes="128x128" href="./img/icon.png">
+        <!-- Google Fonts -->
+        <link
+            href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+            rel="stylesheet"
+        />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&display=swap"
+            rel="stylesheet"
+        />
 
-    <!-- Google Fonts -->
-    <link
-        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
-        rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+        <!-- CDN CSS Files -->
+        <link
+            rel="stylesheet"
+            href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+            integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+            crossorigin="anonymous"
+        />
+        <link
+            href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
+            rel="stylesheet"
+        />
 
-    <!-- CDN CSS Files -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+        <!-- Main CSS File -->
+        <link href="css/style.css" rel="stylesheet" />
 
-    <!-- Main CSS File -->
-    <link href="css/style.css" rel="stylesheet">
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script
+            async
+            src="https://www.googletagmanager.com/gtag/js?id=G-7EEP8YHH7P"
+        ></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag("js", new Date());
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-7EEP8YHH7P"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
+            gtag("config", "G-7EEP8YHH7P");
+        </script>
+    </head>
 
-        gtag('config', 'G-7EEP8YHH7P');
-    </script>
-</head>
-
-<body>
-    <div class="row no-gutters">
-        <!-- ======= Header ======= -->
-        <header id="bio" class="header col-md-5">
-            <div class="profile d-flex flex-column align-items-center justify-content-sm-around">
-                <img class="profile-picture img-fluid rounded-circle" src="./img/vkas.jpg" alt="">
-                <div class="profile-name d-flex flex-column">
-                    <h2 class="text-light">Hi there!👋</h2>
-                    <h2 class="text-light" style="font-size: 32px;">I'm</h2>
-                    <h1 class="text-light">Vikas Padaliya</h1>
-                    <h3 class="text-light">DevOps | Backend </h3>
-                </div>
-                <div class="profile-information">
-                    <h4 class="text-light px-2 mb-2">
-                        I am working as DevOps & Backend Engineer<br>
-                    </h4>
-                    <h4 class="text-light px-2 mb-1">
-                        In my experience I've worked on building<br>
-                        APIs, Microservices, Conversational Bot, Serverless WebApps,
-                        Cloud Functions.
-                    </h4>
-                    <h4 class="text-light px-2 mb-4">
-                        Writing & Implementing CI/CD, ETL, IaC, Zero Down Time.
-                    </h4>
-                    <h4 class="text-light">
-                        Avid Open Source Lover ❤️<br>
-                    </h4>
-                </div>
-                <div class="profile-links mt-3 text-center">
-                    <a href="https://twitter.com/pvkas13" class="twitter" target="_blank"><i
-                            class="bx bxl-twitter"></i></a>
-                    <a href="https://www.instagram.com/pvkas13" class="instagram" target="_blank"><i
-                            class="bx bxl-instagram"></i></a>
-                    <a href="https://www.linkedin.com/in/pvkas13" class="linkedin" target="_blank"><i
-                            class="bx bxl-linkedin"></i></a>
-                </div>
-            </div>
-        </header>
-
-        <main id="main" class="col-md-7">
-
-            <section id="interests" class="d-flex flex-row interest-container section-bg">
-                <div class="interest-container-title px-2 py-2">
-                    <h2 class="text-light">
-                        Current Interest 🤓
-                    </h2>
-                </div>
-                <div class="d-flex flex-row interest-container-content justify-content-center px-2">
-                    <a href="https://openai.com/blog/chatgpt" target="_blank" title="ChatGPT">
-                        <img src="./img/ChatGPT.png" alt="">
-                    </a>
-                    <a href="https://huggingface.co/" target="_blank" title="Prompt Engineering">
-                        <img src="./img/HF.png" alt="">
-                    </a>
-                </div>
-            </section>
-
-            <!-- Knowledge Container -->
-            <section id="skills" class="knowledge-container section-bg pb-2">
-                <div class="knowledge-container-title">
-                    <h2 class="text-light py-2 px-2">
-                        Knowledge Container 📚
-                    </h2>
-                </div>
-                <div class="d-flex flex-column knowledge-container-content">
-                    <div class="d-flex flex-row knowledge-container-content-row">
-                        <div class="knowledge-container-item">
-                            <a href="https://www.javascript.com/" target="_blank" title="Javascript">
-                                <img src="./img/JS.png" alt="">
-                            </a>
-                        </div>
-                        <div class="knowledge-container-item">
-                            <a href="https://www.typescriptlang.org/" target="_blank" title="Typescript">
-                                <img src="./img/TS.png" alt="">
-                            </a>
-                        </div>
-                        <div class="knowledge-container-item">
-                            <a href="hhttps://www.python.org/" target="_blank" title="Python">
-                                <img src="./img/Python.png" alt="">
-                            </a>
-                        </div>
-                        <div class="knowledge-container-item">
-                            <a href="https://www.shellscript.sh/" target="_blank" title="Shell">
-                                <img src="./img/Shell.png" alt="">
-                            </a>
-                        </div>
-                        <div class="knowledge-container-item">
-                            <a href="https://golang.org/" target="_blank" title="Go">
-                                <img src="./img/Go.png" alt="">
-                            </a>
-                        </div>
+    <body>
+        <div class="row no-gutters">
+            <!-- ======= Header ======= -->
+            <header id="bio" class="header col-md-5">
+                <div
+                    class="profile d-flex flex-column align-items-center justify-content-sm-around"
+                >
+                    <img
+                        class="profile-picture img-fluid rounded-circle"
+                        src="./img/vkas.jpg"
+                        alt=""
+                    />
+                    <div class="profile-name d-flex flex-column">
+                        <h2 class="text-light">Hi there!👋</h2>
+                        <h2 class="text-light" style="font-size: 32px">I'm</h2>
+                        <h1 class="text-light">Vikas Padaliya</h1>
+                        <h3 class="text-light">DevOps | Backend</h3>
                     </div>
-                    <div class="d-flex flex-row knowledge-container-content-row">
-                        <div class="knowledge-container-item">
-                            <a href="https://expressjs.com/" target="_blank" title="Express">
-                                <img src="./img/Express.png" alt="">
-                            </a>
-                        </div>
-                        <div class="knowledge-container-item">
-                            <a href="https://graphql.org/" target="_blank" title="Ethereum">
-                                <img src="./img/Graphql.png" alt="">
-                            </a>
-                        </div>
-                        <div class="knowledge-container-item">
-                            <a href="https://www.serverless.com/" target="_blank" title="Serverless">
-                                <img src="./img/Serverless.png" alt="">
-                            </a>
-                        </div>
-                        <div class="knowledge-container-item">
-                            <a href="https://dev.botframework.com/" target="_blank" title="Bot Framework">
-                                <img src="./img/BF.png" alt="">
-                            </a>
-                        </div>
-                        <div class="knowledge-container-item">
-                            <a href="https://www.apollographql.com/" target="_blank" title="Apollo Graphql">
-                                <img src="./img/Apollo.png" alt="">
-                            </a>
-                        </div>
-                        <div class="knowledge-container-item">
-                            <a href="https://flask.palletsprojects.com/en/1.1.x/" target="_blank" title="Flask">
-                                <img src="./img/Flask.png" alt="">
-                            </a>
-                        </div>
-                        <div class="knowledge-container-item">
-                            <a href="https://cloud.google.com/dialogflow" target="_blank" title="Dialogflow">
-                                <img src="./img/Dialogflow.png" alt="">
-                            </a>
-                        </div>
-                        <div class="knowledge-container-item">
-                            <a href="https://rasa.com/" target="_blank" title="Rasa">
-                                <img src="./img/Rasa.png" alt="">
-                            </a>
-                        </div>
-                        <div class="knowledge-container-item">
-                            <a href="https://firebase.google.com/" target="_blank" title="Firebase">
-                                <img src="./img/Firebase.png" alt="">
-                            </a>
-                        </div>
-                        <div class="knowledge-container-item">
-                            <a href="https://airflow.apache.org/" target="_blank" title="Airflow">
-                                <img src="./img/Airflow.png" alt="">
-                            </a>
-                        </div>
+                    <div class="profile-information">
+                        <h4 class="text-light px-2 mb-2">
+                            I am working as DevOps & Backend Engineer<br />
+                        </h4>
+                        <h4 class="text-light px-2 mb-1">
+                            In my experience I've worked on building<br />
+                            APIs, Microservices, Conversational Bot, Serverless
+                            WebApps, Cloud Functions.
+                        </h4>
+                        <h4 class="text-light px-2 mb-4">
+                            Writing & Implementing CI/CD, ETL, IaC, Zero Down
+                            Time.
+                        </h4>
+                        <h4 class="text-light">
+                            Avid Open Source Lover ❤️<br />
+                        </h4>
                     </div>
-                    <div class="d-flex flex-row knowledge-container-content-row">
-                        <div class="knowledge-container-item">
-                            <a href="https://www.mongodb.com/" target="_blank" title="Mongodb">
-                                <img src="./img/Mongo.png" alt="">
-                            </a>
-                        </div>
-                        <div class="knowledge-container-item">
-                            <a href="https://www.postgresql.org/" target="_blank" title="Postgre SQL">
-                                <img src="./img/Postgre.png" alt="">
-                            </a>
-                        </div>
-                        <div class="knowledge-container-item">
-                            <a href="https://www.elastic.co/" target="_blank" title="Elastic Search">
-                                <img src="./img/Elastic.png" alt="">
-                            </a>
-                        </div>
-                        <div class="knowledge-container-item">
-                            <a href="https://cassandra.apache.org/" target="_blank" title="Cassandra">
-                                <img src="./img/Cassandra.png" alt="">
-                            </a>
-                        </div>
-                        <div class="knowledge-container-item">
-                            <a href="https://redis.io/" target="_blank" title="Redis">
-                                <img src="./img/Redis.png" alt="">
-                            </a>
-                        </div>
-                        <div class="knowledge-container-item">
-                            <a href="https://www.investopedia.com/terms/b/blockchain.asp" target="_blank" title="Blockchain">
-                                <img src="./img/BlockChain.png" alt="">
-                            </a>
-                        </div>
-                        <div class="knowledge-container-item">
-                            <a href="https://dgraph.io" target="_blank" title="DGraph">
-                                <img src="./img/Dgraph.png" alt="">
-                            </a>
-                        </div>
-                        <div class="knowledge-container-item">
-                            <a href="https://kafka.apache.org" target="_blank" title="Kafka">
-                                <img src="./img/Kafka.png" alt="">
-                            </a>
-                        </div>
-                        <div class="knowledge-container-item">
-                            <a href="https://github.com/google/leveldb" target="_blank" title="Level Db">
-                                <img src="./img/Level.png" alt="">
-                            </a>
-                        </div>
+                    <div class="profile-links mt-3 text-center">
+                        <a
+                            href="https://twitter.com/pvkas13"
+                            class="twitter"
+                            target="_blank"
+                            ><i class="bx bxl-twitter"></i
+                        ></a>
+                        <a
+                            href="https://www.instagram.com/pvkas13"
+                            class="instagram"
+                            target="_blank"
+                            ><i class="bx bxl-instagram"></i
+                        ></a>
+                        <a
+                            href="https://www.linkedin.com/in/pvkas13"
+                            class="linkedin"
+                            target="_blank"
+                            ><i class="bx bxl-linkedin"></i
+                        ></a>
                     </div>
-                    <div class="d-flex flex-row knowledge-container-content-row">
-                        <div class="knowledge-container-item">
-                            <a href="https://www.docker.com/" target="_blank" title="Docker">
-                                <img src="./img/Docker.png" alt="">
-                            </a>
-                        </div>
-                        <div class="knowledge-container-item">
-                            <a href="https://kubernetes.io/" target="_blank" title="Kubernetes">
-                                <img src="./img/Kubernetes.png" alt="">
-                            </a>
-                        </div>
-                        <div class="knowledge-container-item">
-                            <a href="https://www.ansible.com/" target="_blank" title="Ansible">
-                                <img src="./img/Ansible.png" alt="">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="d-flex flex-row knowledge-container-content-row">
-                        <div class="knowledge-container-item">
-                            <a href="https://aws.amazon.com/" target="_blank" title="AWS">
-                                <img src="./img/AWS.png" alt="">
-                            </a>
-                        </div>
-                        <div class="knowledge-container-item">
-                            <a href="https://azure.microsoft.com/en-in/" target="_blank" title="Azure">
-                                <img src="./img/Azure.png" alt="">
-                            </a>
-                        </div>
-                        <div class="knowledge-container-item">
-                            <a href="https://cloud.google.com/" target="_blank" title="Google Cloud">
-                                <img src="./img/GCP.png" alt="">
-                            </a>
-                        </div>
-                        <div class="knowledge-container-item">
-                            <a href="https://www.digitalocean.com/" target="_blank" title="Digital Ocean">
-                                <img src="./img/DO.png" alt="">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="d-flex flex-row knowledge-container-sub-title">
-                        <h4 class="text-light">Things I've been playing with along side tech</h4>
-                    </div>
-                    <div class="d-flex flex-row knowledge-container-content-row">
-                        <div class="knowledge-container-item">
-                            <a href="https://www.adobe.com/in/products/xd.html" target="_blank" title="Adobe XD">
-                                <img src="./img/XD.png" alt="">
-                            </a>
-                        </div>
-                        <div class="knowledge-container-item">
-                            <a href="https://www.figma.com/" target="_blank" title="Figma">
-                                <img src="./img/Figma.png" alt="">
-                            </a>
-                        </div>
-                        <div class="knowledge-container-item">
-                            <a href="https://www.adobe.com/in/products/photoshop.html" target="_blank"
-                                title="Photoshop">
-                                <img src="./img/PS.png" alt="">
-                            </a>
-                        </div>
-                        <div class="knowledge-container-item">
-                            <a href="https://www.adobe.com/in/products/illustrator.html" target="_blank"
-                                title="Illustrator">
-                                <img src="./img/AI.png" alt="">
-                            </a>
-                        </div>
-                        <div class="knowledge-container-item">
-                            <a href="https://www.adobe.com/in/products/aftereffects.html" target="_blank"
-                                title="After Effects">
-                                <img src="./img/AE.png" alt="">
-                            </a>
-                        </div>
-                        <div class="knowledge-container-item">
-                            <a href="https://www.blender.org/" target="_blank" title="Blender">
-                                <img src="./img/Blender.png" alt="">
-                            </a>
-                        </div>
-                        <div class="knowledge-container-item">
-                            <a href="https://www.image-line.com/" target="_blank" title="FL Studio">
-                                <img src="./img/FL.png" alt="">
-                            </a>
-                        </div>
-                        <div class="knowledge-container-item">
-                            <a href="https://www.ableton.com/en/" target="_blank" title="Ableton Live">
-                                <img src="./img/Ableton.png" alt="">
-                            </a>
-                        </div>
+                    <div class="mt-3">
+                        <a href="privacy-policy.html" class="text-light small"
+                            >Privacy Policy</a
+                        >
                     </div>
                 </div>
-            </section>
+            </header>
 
-            <!-- Journey Timeline -->
-            <section id="journey" class="timeline-container section-bg">
-                <div class="timeline-container-title">
-                    <h2 class="text-light py-2 px-2">
-                        Journey 🛣
-                    </h2>
-                </div>
-                <div class="d-flex flex-row timeline-container-content my-4 ml-2 mr-4">
-                    <div class="timeline">
-                        <ul class="sessions">
-                            <li class="session">
-                                <div class="time text-light">2025 ...</div>
-                                <p class="text-light">
-                                    <b><u> AI, Opensource</u></b><br>
-                                    Working on custom AI agent building<br>
-                                    [Learning prompt Engineering]<br>
-                                    [Building startup only using AI]<br>
-                                    [Maintaining fulltime role as Backend & DevOps]<br>
-                                    ...
-                                </p>
-                            </li>
-                            <li class="session">
-                                <div class="time text-light">2024</div>
-                                <p class="text-light">
-                                    <b><u> AI, Feed</u></b><br>
-                                    I worked building feed generation for brands & teams involved in colabrative professional network.
-                                    It included dynamic posts generation for activities happening in network & achieving milestones etc.<br>
-                                    Moderator system to manage activity in complex network professional building product.<br>
-                                    Played with different types of AI Opensource models and its usecases.<br>
-                                    Different architectures to build custom AI models integrated with data lake<br>
-                                </p>
-                            </li>
-                            <li class="session">
-                                <div class="time text-light">2023</div>
-                                <p class="text-light">
-                                    <b><u> AI, Search Engine</u></b><br>
-                                    Working professionally to build search engine for colabrative professional network.
-                                    My resposibilities involved building data pipelines for data aggregation, indexing, generating custom queries for text searches and
-                                    implementing of ranking system in search engine.
-                                    I also spend time learning and experimenting with opensource AI models for use-cases like text summarization & QnA.
-                                </p>
-                            </li>
-                            <li class="session">
-                                <div class="time text-light">2022</div>
-                                <p class="text-light">
-                                    <b><u> AI, Web3</u></b><br>
-                                    Working closely with startups around AI and Collaboration Network.
-                                    Using my existing knwoledge in AI & NLP, I helped developing and integrating end-to-end service which predicts emotion from voice.
-                                    As one of early user and beta tester of GPT-OpenAI (Since 2020).
-                                    I spent lot of time playing around experimenting with AI techonologies.
-                                    Meanwhile I also contributed to startup building an emerging peer to peer professional network as Backend & DevOps engineer.
-                                    From trying to build bridge between web2 and web3 for next-gen application I pivoted towards AI applications.
-                                </p>
-                            </li>
-                            <li class="session">
-                                <div class="time text-light">2021</div>
-                                <p class="text-light">
-                                    <b><u> BlockChain, Graph Databases, Zero Downtime, Event Driven Microservice</u></b><br>
-                                    Getting chance to work on growing startups with their massive user growth.
-                                    Scale & Stability becomes primary requirement of startup during this stage.
-                                    I got to work on implementing zero down time using methods like blue-green and
-                                    also allowing to test with canary builds.
-                                    One of my core resposibility was to develop and migrate to Event driven Microservices while leading
-                                    some features like building recommendation engine service using graph databases.
-                                    As Tech World was already shifting towards new technologies like blockchain and crypto.
-                                    I spent decent amount of time learning and experimenting it.
-                                </p>
-                            </li>
-                            <li class="session">
-                                <div class="time text-light">2020</div>
-                                <p class="text-light">
-                                    <b><u>Python, Elastic Search, Ansible, Kubernetes</u></b><br>
-                                    Working in service based startup I got opportunity to work
-                                    with different startups and people around the world.
-                                    since every idea has its own tech requirements. I have worked in different languages.
-                                    Building architecture like master-slave for workload distribution, writing ETL, APIs, cache systems, NLP bots.
-                                    While taking care of all DevOps resposibilities and developing solid knowledge on IaC and kubernetes.
-                                </p>
-                            </li>
-                            <li class="session">
-                                <div class="time text-light">2019</div>
-                                <p class="text-light">
-                                    <b><u>Nodejs, MongoDB, Docker, Azure </u></b><br>
-                                    While working as intern in DevOps.
-                                    I was also one of core backend developer in MEAN & MERN stack projects.
-                                    Writing and integrating APIs, web scraping and scripts.
-                                    Started building strong knowledge around containerization meanwhile getting my
-                                    hands on AWS and Azure.
-                                    Thus, I started my journey tech journey.
-                                </p>
-                            </li>
-                            <li class="session">
-                                <div class="time text-light">2018</div>
-                                <p class="text-light">
-                                    <b><u> Linux, Administration, Cloud, AWS</u></b><br>
-                                    As Industry was shifting towards cloud computing.
-                                    I used knowledge I had on networking and jumped into cloud computing.
-                                    I started with taking courses on AWS.
-                                    Which helped me learn Administration and UNIX eventually made me play around linux.
-                                    This was the time I actually started loving opensource and its community.
-                                    Finally I decided to join company as DevOps intern.
-                                </p>
-                            </li>
-                            <li class="session">
-                                <div class="time text-light">2017</div>
-                                <p class="text-light">
-                                    <b><u> Figma, XD, Networking</u></b> <br>
-                                    While working part time as designer I shifted my to work towards UI/UX.
-                                    As I was working closely with industry while studying. 
-                                    I found one interesting domain which was networking.
-                                    So, I took few courses of CISCO and VMWARE.
-                                    where I learn how configure and manage network and bare metal virtual machines, switches, routers, firewalls.
-                                </p>
-                            </li>
-                            <li class="session">
-                                <div class="time text-light">2016</div>
-                                <p class="text-light">
-                                    <b><u> Java, Android, Illustrator, Premier</u></b> <br>
-                                    As a part of academics. I leaned Java and Android.
-                                    on personal interest I contributed to couple of mobile applications.
-                                    To create assets for mobile app I had to spend lot of time creating
-                                    icons, screns, animation using Illustrator.
-                                    Meanwhile I also helped creating posters, teaser and brochure for college.
-                                    I was also working as part time designer in a startup.
-                                </p>
-                            </li>
-                            <li class="session">
-                                <div class="time text-light">2015</div>
-                                <p class="text-light">
-                                    <b><u> C++ Shell</u></b><br>
-                                    After spending lot of time working with all these different tools and programs.
-                                    It developed my interest into computers. I chose it as my career path.
-                                    The very first things I got to learn was language like C, C++ and basic shell
-                                    scripting along with all software engineering knowledge.
-                                </p>
-                            </li>
-                            <li class="session">
-                                <div class="time text-light">2013-2014</div>
-                                <p class="text-light">
-                                    <b><u> Blender, FL Studio, Ableton Live</u></b><br>
-                                    While playing with 2D animation and VFX. It eventually led me to
-                                    work around 3D animation and asset building. Since every short clip needs audio track which
-                                    again drove me towards generating some music. I used tools like FL studio and Ableton Live
-                                    to create samples and music tracks.
-                                </p>
-                            </li>
-                            <li class="session">
-                                <div class="time text-light">2012</div>
-                                <p class="text-light">
-                                    <b><u> Photoshop, After Effect</u></b><br>
-                                    Having interest in drawing, I got my hands creating digital arts.
-                                    Started photoshop with basic editing to making some short films and animation in after effects.
-                                    I still feel the same excitement about VFX industry.
-                                </p>
-                            </li>
-                        </ul>
+            <main id="main" class="col-md-7">
+                <section
+                    id="interests"
+                    class="d-flex flex-row interest-container section-bg"
+                >
+                    <div class="interest-container-title px-2 py-2">
+                        <h2 class="text-light">Current Interest 🤓</h2>
                     </div>
-                </div>
-            </section>
-        </main>
-    </div>
+                    <div
+                        class="d-flex flex-row interest-container-content justify-content-center px-2"
+                    >
+                        <a
+                            href="https://openai.com/blog/chatgpt"
+                            target="_blank"
+                            title="ChatGPT"
+                        >
+                            <img src="./img/ChatGPT.png" alt="" />
+                        </a>
+                        <a
+                            href="https://huggingface.co/"
+                            target="_blank"
+                            title="Prompt Engineering"
+                        >
+                            <img src="./img/HF.png" alt="" />
+                        </a>
+                    </div>
+                </section>
 
-    <!-- Vendor JS Files -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
+                <!-- Knowledge Container -->
+                <section
+                    id="skills"
+                    class="knowledge-container section-bg pb-2"
+                >
+                    <div class="knowledge-container-title">
+                        <h2 class="text-light py-2 px-2">
+                            Knowledge Container 📚
+                        </h2>
+                    </div>
+                    <div class="d-flex flex-column knowledge-container-content">
+                        <div
+                            class="d-flex flex-row knowledge-container-content-row"
+                        >
+                            <div class="knowledge-container-item">
+                                <a
+                                    href="https://www.javascript.com/"
+                                    target="_blank"
+                                    title="Javascript"
+                                >
+                                    <img src="./img/JS.png" alt="" />
+                                </a>
+                            </div>
+                            <div class="knowledge-container-item">
+                                <a
+                                    href="https://www.typescriptlang.org/"
+                                    target="_blank"
+                                    title="Typescript"
+                                >
+                                    <img src="./img/TS.png" alt="" />
+                                </a>
+                            </div>
+                            <div class="knowledge-container-item">
+                                <a
+                                    href="hhttps://www.python.org/"
+                                    target="_blank"
+                                    title="Python"
+                                >
+                                    <img src="./img/Python.png" alt="" />
+                                </a>
+                            </div>
+                            <div class="knowledge-container-item">
+                                <a
+                                    href="https://www.shellscript.sh/"
+                                    target="_blank"
+                                    title="Shell"
+                                >
+                                    <img src="./img/Shell.png" alt="" />
+                                </a>
+                            </div>
+                            <div class="knowledge-container-item">
+                                <a
+                                    href="https://golang.org/"
+                                    target="_blank"
+                                    title="Go"
+                                >
+                                    <img src="./img/Go.png" alt="" />
+                                </a>
+                            </div>
+                        </div>
+                        <div
+                            class="d-flex flex-row knowledge-container-content-row"
+                        >
+                            <div class="knowledge-container-item">
+                                <a
+                                    href="https://expressjs.com/"
+                                    target="_blank"
+                                    title="Express"
+                                >
+                                    <img src="./img/Express.png" alt="" />
+                                </a>
+                            </div>
+                            <div class="knowledge-container-item">
+                                <a
+                                    href="https://graphql.org/"
+                                    target="_blank"
+                                    title="Ethereum"
+                                >
+                                    <img src="./img/Graphql.png" alt="" />
+                                </a>
+                            </div>
+                            <div class="knowledge-container-item">
+                                <a
+                                    href="https://www.serverless.com/"
+                                    target="_blank"
+                                    title="Serverless"
+                                >
+                                    <img src="./img/Serverless.png" alt="" />
+                                </a>
+                            </div>
+                            <div class="knowledge-container-item">
+                                <a
+                                    href="https://dev.botframework.com/"
+                                    target="_blank"
+                                    title="Bot Framework"
+                                >
+                                    <img src="./img/BF.png" alt="" />
+                                </a>
+                            </div>
+                            <div class="knowledge-container-item">
+                                <a
+                                    href="https://www.apollographql.com/"
+                                    target="_blank"
+                                    title="Apollo Graphql"
+                                >
+                                    <img src="./img/Apollo.png" alt="" />
+                                </a>
+                            </div>
+                            <div class="knowledge-container-item">
+                                <a
+                                    href="https://flask.palletsprojects.com/en/1.1.x/"
+                                    target="_blank"
+                                    title="Flask"
+                                >
+                                    <img src="./img/Flask.png" alt="" />
+                                </a>
+                            </div>
+                            <div class="knowledge-container-item">
+                                <a
+                                    href="https://cloud.google.com/dialogflow"
+                                    target="_blank"
+                                    title="Dialogflow"
+                                >
+                                    <img src="./img/Dialogflow.png" alt="" />
+                                </a>
+                            </div>
+                            <div class="knowledge-container-item">
+                                <a
+                                    href="https://rasa.com/"
+                                    target="_blank"
+                                    title="Rasa"
+                                >
+                                    <img src="./img/Rasa.png" alt="" />
+                                </a>
+                            </div>
+                            <div class="knowledge-container-item">
+                                <a
+                                    href="https://firebase.google.com/"
+                                    target="_blank"
+                                    title="Firebase"
+                                >
+                                    <img src="./img/Firebase.png" alt="" />
+                                </a>
+                            </div>
+                            <div class="knowledge-container-item">
+                                <a
+                                    href="https://airflow.apache.org/"
+                                    target="_blank"
+                                    title="Airflow"
+                                >
+                                    <img src="./img/Airflow.png" alt="" />
+                                </a>
+                            </div>
+                        </div>
+                        <div
+                            class="d-flex flex-row knowledge-container-content-row"
+                        >
+                            <div class="knowledge-container-item">
+                                <a
+                                    href="https://www.mongodb.com/"
+                                    target="_blank"
+                                    title="Mongodb"
+                                >
+                                    <img src="./img/Mongo.png" alt="" />
+                                </a>
+                            </div>
+                            <div class="knowledge-container-item">
+                                <a
+                                    href="https://www.postgresql.org/"
+                                    target="_blank"
+                                    title="Postgre SQL"
+                                >
+                                    <img src="./img/Postgre.png" alt="" />
+                                </a>
+                            </div>
+                            <div class="knowledge-container-item">
+                                <a
+                                    href="https://www.elastic.co/"
+                                    target="_blank"
+                                    title="Elastic Search"
+                                >
+                                    <img src="./img/Elastic.png" alt="" />
+                                </a>
+                            </div>
+                            <div class="knowledge-container-item">
+                                <a
+                                    href="https://cassandra.apache.org/"
+                                    target="_blank"
+                                    title="Cassandra"
+                                >
+                                    <img src="./img/Cassandra.png" alt="" />
+                                </a>
+                            </div>
+                            <div class="knowledge-container-item">
+                                <a
+                                    href="https://redis.io/"
+                                    target="_blank"
+                                    title="Redis"
+                                >
+                                    <img src="./img/Redis.png" alt="" />
+                                </a>
+                            </div>
+                            <div class="knowledge-container-item">
+                                <a
+                                    href="https://www.investopedia.com/terms/b/blockchain.asp"
+                                    target="_blank"
+                                    title="Blockchain"
+                                >
+                                    <img src="./img/BlockChain.png" alt="" />
+                                </a>
+                            </div>
+                            <div class="knowledge-container-item">
+                                <a
+                                    href="https://dgraph.io"
+                                    target="_blank"
+                                    title="DGraph"
+                                >
+                                    <img src="./img/Dgraph.png" alt="" />
+                                </a>
+                            </div>
+                            <div class="knowledge-container-item">
+                                <a
+                                    href="https://kafka.apache.org"
+                                    target="_blank"
+                                    title="Kafka"
+                                >
+                                    <img src="./img/Kafka.png" alt="" />
+                                </a>
+                            </div>
+                            <div class="knowledge-container-item">
+                                <a
+                                    href="https://github.com/google/leveldb"
+                                    target="_blank"
+                                    title="Level Db"
+                                >
+                                    <img src="./img/Level.png" alt="" />
+                                </a>
+                            </div>
+                        </div>
+                        <div
+                            class="d-flex flex-row knowledge-container-content-row"
+                        >
+                            <div class="knowledge-container-item">
+                                <a
+                                    href="https://www.docker.com/"
+                                    target="_blank"
+                                    title="Docker"
+                                >
+                                    <img src="./img/Docker.png" alt="" />
+                                </a>
+                            </div>
+                            <div class="knowledge-container-item">
+                                <a
+                                    href="https://kubernetes.io/"
+                                    target="_blank"
+                                    title="Kubernetes"
+                                >
+                                    <img src="./img/Kubernetes.png" alt="" />
+                                </a>
+                            </div>
+                            <div class="knowledge-container-item">
+                                <a
+                                    href="https://www.ansible.com/"
+                                    target="_blank"
+                                    title="Ansible"
+                                >
+                                    <img src="./img/Ansible.png" alt="" />
+                                </a>
+                            </div>
+                        </div>
+                        <div
+                            class="d-flex flex-row knowledge-container-content-row"
+                        >
+                            <div class="knowledge-container-item">
+                                <a
+                                    href="https://aws.amazon.com/"
+                                    target="_blank"
+                                    title="AWS"
+                                >
+                                    <img src="./img/AWS.png" alt="" />
+                                </a>
+                            </div>
+                            <div class="knowledge-container-item">
+                                <a
+                                    href="https://azure.microsoft.com/en-in/"
+                                    target="_blank"
+                                    title="Azure"
+                                >
+                                    <img src="./img/Azure.png" alt="" />
+                                </a>
+                            </div>
+                            <div class="knowledge-container-item">
+                                <a
+                                    href="https://cloud.google.com/"
+                                    target="_blank"
+                                    title="Google Cloud"
+                                >
+                                    <img src="./img/GCP.png" alt="" />
+                                </a>
+                            </div>
+                            <div class="knowledge-container-item">
+                                <a
+                                    href="https://www.digitalocean.com/"
+                                    target="_blank"
+                                    title="Digital Ocean"
+                                >
+                                    <img src="./img/DO.png" alt="" />
+                                </a>
+                            </div>
+                        </div>
+                        <div
+                            class="d-flex flex-row knowledge-container-sub-title"
+                        >
+                            <h4 class="text-light">
+                                Things I've been playing with along side tech
+                            </h4>
+                        </div>
+                        <div
+                            class="d-flex flex-row knowledge-container-content-row"
+                        >
+                            <div class="knowledge-container-item">
+                                <a
+                                    href="https://www.adobe.com/in/products/xd.html"
+                                    target="_blank"
+                                    title="Adobe XD"
+                                >
+                                    <img src="./img/XD.png" alt="" />
+                                </a>
+                            </div>
+                            <div class="knowledge-container-item">
+                                <a
+                                    href="https://www.figma.com/"
+                                    target="_blank"
+                                    title="Figma"
+                                >
+                                    <img src="./img/Figma.png" alt="" />
+                                </a>
+                            </div>
+                            <div class="knowledge-container-item">
+                                <a
+                                    href="https://www.adobe.com/in/products/photoshop.html"
+                                    target="_blank"
+                                    title="Photoshop"
+                                >
+                                    <img src="./img/PS.png" alt="" />
+                                </a>
+                            </div>
+                            <div class="knowledge-container-item">
+                                <a
+                                    href="https://www.adobe.com/in/products/illustrator.html"
+                                    target="_blank"
+                                    title="Illustrator"
+                                >
+                                    <img src="./img/AI.png" alt="" />
+                                </a>
+                            </div>
+                            <div class="knowledge-container-item">
+                                <a
+                                    href="https://www.adobe.com/in/products/aftereffects.html"
+                                    target="_blank"
+                                    title="After Effects"
+                                >
+                                    <img src="./img/AE.png" alt="" />
+                                </a>
+                            </div>
+                            <div class="knowledge-container-item">
+                                <a
+                                    href="https://www.blender.org/"
+                                    target="_blank"
+                                    title="Blender"
+                                >
+                                    <img src="./img/Blender.png" alt="" />
+                                </a>
+                            </div>
+                            <div class="knowledge-container-item">
+                                <a
+                                    href="https://www.image-line.com/"
+                                    target="_blank"
+                                    title="FL Studio"
+                                >
+                                    <img src="./img/FL.png" alt="" />
+                                </a>
+                            </div>
+                            <div class="knowledge-container-item">
+                                <a
+                                    href="https://www.ableton.com/en/"
+                                    target="_blank"
+                                    title="Ableton Live"
+                                >
+                                    <img src="./img/Ableton.png" alt="" />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
 
-</body>
+                <!-- Journey Timeline -->
+                <section id="journey" class="timeline-container section-bg">
+                    <div class="timeline-container-title">
+                        <h2 class="text-light py-2 px-2">Journey 🛣</h2>
+                    </div>
+                    <div
+                        class="d-flex flex-row timeline-container-content my-4 ml-2 mr-4"
+                    >
+                        <div class="timeline">
+                            <ul class="sessions">
+                                <li class="session">
+                                    <div class="time text-light">2025 ...</div>
+                                    <p class="text-light">
+                                        <b><u> AI, Opensource</u></b
+                                        ><br />
+                                        Working on custom AI agent building<br />
+                                        [Learning prompt Engineering]<br />
+                                        [Building startup only using AI]<br />
+                                        [Maintaining fulltime role as Backend &
+                                        DevOps]<br />
+                                        ...
+                                    </p>
+                                </li>
+                                <li class="session">
+                                    <div class="time text-light">2024</div>
+                                    <p class="text-light">
+                                        <b><u> AI, Feed</u></b
+                                        ><br />
+                                        I worked building feed generation for
+                                        brands & teams involved in colabrative
+                                        professional network. It included
+                                        dynamic posts generation for activities
+                                        happening in network & achieving
+                                        milestones etc.<br />
+                                        Moderator system to manage activity in
+                                        complex network professional building
+                                        product.<br />
+                                        Played with different types of AI
+                                        Opensource models and its usecases.<br />
+                                        Different architectures to build custom
+                                        AI models integrated with data lake<br />
+                                    </p>
+                                </li>
+                                <li class="session">
+                                    <div class="time text-light">2023</div>
+                                    <p class="text-light">
+                                        <b><u> AI, Search Engine</u></b
+                                        ><br />
+                                        Working professionally to build search
+                                        engine for colabrative professional
+                                        network. My resposibilities involved
+                                        building data pipelines for data
+                                        aggregation, indexing, generating custom
+                                        queries for text searches and
+                                        implementing of ranking system in search
+                                        engine. I also spend time learning and
+                                        experimenting with opensource AI models
+                                        for use-cases like text summarization &
+                                        QnA.
+                                    </p>
+                                </li>
+                                <li class="session">
+                                    <div class="time text-light">2022</div>
+                                    <p class="text-light">
+                                        <b><u> AI, Web3</u></b
+                                        ><br />
+                                        Working closely with startups around AI
+                                        and Collaboration Network. Using my
+                                        existing knwoledge in AI & NLP, I helped
+                                        developing and integrating end-to-end
+                                        service which predicts emotion from
+                                        voice. As one of early user and beta
+                                        tester of GPT-OpenAI (Since 2020). I
+                                        spent lot of time playing around
+                                        experimenting with AI techonologies.
+                                        Meanwhile I also contributed to startup
+                                        building an emerging peer to peer
+                                        professional network as Backend & DevOps
+                                        engineer. From trying to build bridge
+                                        between web2 and web3 for next-gen
+                                        application I pivoted towards AI
+                                        applications.
+                                    </p>
+                                </li>
+                                <li class="session">
+                                    <div class="time text-light">2021</div>
+                                    <p class="text-light">
+                                        <b
+                                            ><u>
+                                                BlockChain, Graph Databases,
+                                                Zero Downtime, Event Driven
+                                                Microservice</u
+                                            ></b
+                                        ><br />
+                                        Getting chance to work on growing
+                                        startups with their massive user growth.
+                                        Scale & Stability becomes primary
+                                        requirement of startup during this
+                                        stage. I got to work on implementing
+                                        zero down time using methods like
+                                        blue-green and also allowing to test
+                                        with canary builds. One of my core
+                                        resposibility was to develop and migrate
+                                        to Event driven Microservices while
+                                        leading some features like building
+                                        recommendation engine service using
+                                        graph databases. As Tech World was
+                                        already shifting towards new
+                                        technologies like blockchain and crypto.
+                                        I spent decent amount of time learning
+                                        and experimenting it.
+                                    </p>
+                                </li>
+                                <li class="session">
+                                    <div class="time text-light">2020</div>
+                                    <p class="text-light">
+                                        <b
+                                            ><u
+                                                >Python, Elastic Search,
+                                                Ansible, Kubernetes</u
+                                            ></b
+                                        ><br />
+                                        Working in service based startup I got
+                                        opportunity to work with different
+                                        startups and people around the world.
+                                        since every idea has its own tech
+                                        requirements. I have worked in different
+                                        languages. Building architecture like
+                                        master-slave for workload distribution,
+                                        writing ETL, APIs, cache systems, NLP
+                                        bots. While taking care of all DevOps
+                                        resposibilities and developing solid
+                                        knowledge on IaC and kubernetes.
+                                    </p>
+                                </li>
+                                <li class="session">
+                                    <div class="time text-light">2019</div>
+                                    <p class="text-light">
+                                        <b
+                                            ><u
+                                                >Nodejs, MongoDB, Docker, Azure
+                                            </u></b
+                                        ><br />
+                                        While working as intern in DevOps. I was
+                                        also one of core backend developer in
+                                        MEAN & MERN stack projects. Writing and
+                                        integrating APIs, web scraping and
+                                        scripts. Started building strong
+                                        knowledge around containerization
+                                        meanwhile getting my hands on AWS and
+                                        Azure. Thus, I started my journey tech
+                                        journey.
+                                    </p>
+                                </li>
+                                <li class="session">
+                                    <div class="time text-light">2018</div>
+                                    <p class="text-light">
+                                        <b
+                                            ><u>
+                                                Linux, Administration, Cloud,
+                                                AWS</u
+                                            ></b
+                                        ><br />
+                                        As Industry was shifting towards cloud
+                                        computing. I used knowledge I had on
+                                        networking and jumped into cloud
+                                        computing. I started with taking courses
+                                        on AWS. Which helped me learn
+                                        Administration and UNIX eventually made
+                                        me play around linux. This was the time
+                                        I actually started loving opensource and
+                                        its community. Finally I decided to join
+                                        company as DevOps intern.
+                                    </p>
+                                </li>
+                                <li class="session">
+                                    <div class="time text-light">2017</div>
+                                    <p class="text-light">
+                                        <b><u> Figma, XD, Networking</u></b>
+                                        <br />
+                                        While working part time as designer I
+                                        shifted my to work towards UI/UX. As I
+                                        was working closely with industry while
+                                        studying. I found one interesting domain
+                                        which was networking. So, I took few
+                                        courses of CISCO and VMWARE. where I
+                                        learn how configure and manage network
+                                        and bare metal virtual machines,
+                                        switches, routers, firewalls.
+                                    </p>
+                                </li>
+                                <li class="session">
+                                    <div class="time text-light">2016</div>
+                                    <p class="text-light">
+                                        <b
+                                            ><u>
+                                                Java, Android, Illustrator,
+                                                Premier</u
+                                            ></b
+                                        >
+                                        <br />
+                                        As a part of academics. I leaned Java
+                                        and Android. on personal interest I
+                                        contributed to couple of mobile
+                                        applications. To create assets for
+                                        mobile app I had to spend lot of time
+                                        creating icons, screns, animation using
+                                        Illustrator. Meanwhile I also helped
+                                        creating posters, teaser and brochure
+                                        for college. I was also working as part
+                                        time designer in a startup.
+                                    </p>
+                                </li>
+                                <li class="session">
+                                    <div class="time text-light">2015</div>
+                                    <p class="text-light">
+                                        <b><u> C++ Shell</u></b
+                                        ><br />
+                                        After spending lot of time working with
+                                        all these different tools and programs.
+                                        It developed my interest into computers.
+                                        I chose it as my career path. The very
+                                        first things I got to learn was language
+                                        like C, C++ and basic shell scripting
+                                        along with all software engineering
+                                        knowledge.
+                                    </p>
+                                </li>
+                                <li class="session">
+                                    <div class="time text-light">2013-2014</div>
+                                    <p class="text-light">
+                                        <b
+                                            ><u>
+                                                Blender, FL Studio, Ableton
+                                                Live</u
+                                            ></b
+                                        ><br />
+                                        While playing with 2D animation and VFX.
+                                        It eventually led me to work around 3D
+                                        animation and asset building. Since
+                                        every short clip needs audio track which
+                                        again drove me towards generating some
+                                        music. I used tools like FL studio and
+                                        Ableton Live to create samples and music
+                                        tracks.
+                                    </p>
+                                </li>
+                                <li class="session">
+                                    <div class="time text-light">2012</div>
+                                    <p class="text-light">
+                                        <b><u> Photoshop, After Effect</u></b
+                                        ><br />
+                                        Having interest in drawing, I got my
+                                        hands creating digital arts. Started
+                                        photoshop with basic editing to making
+                                        some short films and animation in after
+                                        effects. I still feel the same
+                                        excitement about VFX industry.
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+            </main>
+        </div>
 
+        <!-- Vendor JS Files -->
+        <script
+            src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"
+        ></script>
+    </body>
 </html>

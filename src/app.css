@@ -1,3 +1,39 @@
+/* Fonts: preloaded in app.html; block avoids a fallback-font flash. */
+@font-face {
+	font-family: 'Poppins';
+	font-weight: 400;
+	font-display: block;
+	src: url('/fonts/poppins-latin-400-normal.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Poppins';
+	font-weight: 500;
+	font-display: block;
+	src: url('/fonts/poppins-latin-500-normal.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Poppins';
+	font-weight: 600;
+	font-display: block;
+	src: url('/fonts/poppins-latin-600-normal.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Patrick Hand';
+	font-weight: 400;
+	font-display: block;
+	src: url('/fonts/patrick-hand-latin-400-normal.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Roboto Mono';
+	font-weight: 100 700;
+	font-display: block;
+	src: url('/fonts/roboto-mono-latin-wght-normal.woff2') format('woff2');
+}
+
 :root {
 	/* Surfaces */
 	--ink: #111111;
@@ -37,7 +73,7 @@
 
 	--font-sans: 'Poppins', system-ui, sans-serif;
 	--font-hand: 'Patrick Hand', 'Comic Sans MS', cursive;
-	--font-mono: 'Roboto Mono Variable', 'Roboto Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace;
+	--font-mono: 'Roboto Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace;
 
 	--radius-lg: 12px;
 	--radius-md: 8px;

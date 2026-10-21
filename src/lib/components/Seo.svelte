@@ -8,12 +8,12 @@
 		alternateName: ['pvkas', 'vkas'],
 		url: site.url,
 		image: `${site.url}/img/vkas.webp`,
-		jobTitle: 'Software Engineer',
+		jobTitle: 'Backend and Infrastructure Engineer',
 		description: site.description,
 		homeLocation: { '@type': 'Place', name: site.location },
 		worksFor: { '@type': 'Organization', name: 'Localport', url: site.localport },
 		knowsAbout: [...techStack.flat(), ...creativeTools].map((s) => s.name),
-		sameAs: [site.x]
+		sameAs: [site.x, site.linkedin]
 	};
 
 	const graph = {
@@ -58,7 +58,7 @@
 	<meta property="og:image:type" content="image/jpeg" />
 	<meta property="og:image:width" content="1200" />
 	<meta property="og:image:height" content="627" />
-	<meta property="og:image:alt" content="Vikas Padaliya, software engineer building Localport" />
+	<meta property="og:image:alt" content="Vikas Padaliya, backend and infrastructure engineer building Localport" />
 	<meta property="profile:first_name" content="Vikas" />
 	<meta property="profile:last_name" content="Padaliya" />
 	<meta property="profile:username" content="vkas_padaliya" />
@@ -69,7 +69,7 @@
 	<meta name="twitter:title" content={site.title} />
 	<meta name="twitter:description" content={site.description} />
 	<meta name="twitter:image" content={site.image} />
-	<meta name="twitter:image:alt" content="Vikas Padaliya, software engineer building Localport" />
+	<meta name="twitter:image:alt" content="Vikas Padaliya, backend and infrastructure engineer building Localport" />
 
 	{@html jsonLd}
 </svelte:head>

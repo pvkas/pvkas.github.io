@@ -15,22 +15,23 @@ export interface Milestone {
 
 export const site = {
 	url: 'https://www.pvkas.com',
-	title: 'Vikas Padaliya | Software Engineer, building Localport',
+	title: 'Vikas Padaliya | Backend & Infra Engineer, building Localport',
 	role: 'Engineer, tinkerer, builder',
 	description:
-		"Hi, I'm Vikas Padaliya, a software engineer who builds products. Currently building Localport: secure tunnels and remote access for every machine.",
+		'Backend and infrastructure engineer, 8 years in DevOps, cloud and distributed systems. Building Localport: secure tunnels and remote access.',
 	image: 'https://www.pvkas.com/img/vkas-preview.jpg',
 	x: 'https://x.com/vkas_padaliya',
+	linkedin: 'https://www.linkedin.com/in/pvkas13',
 	xHandle: '@vkas_padaliya',
 	localport: 'https://localport.io',
 	location: 'Rajkot, India'
 } as const;
 
 export const builtSystems = [
+	'Cloud & Networking Automation',
 	'AI Agents',
 	'Search Engines',
 	'Recommendation Systems',
-	'Cloud & Networking Automation',
 	'Admin & Moderation Systems',
 	'APIs',
 	'Microservices',
@@ -97,7 +98,7 @@ export const creativeTools: Skill[] = [
 export const journey: Milestone[] = [
 	{
 		year: '2026 ...',
-		title: 'Built Localport',
+		title: 'Building Localport',
 		current: true,
 		body: [
 			'After spending time working closely with visionary startup founders and passionate Indie Hackers, absorbing their invaluable insights and experiences, I took the leap and started building my own products.',
